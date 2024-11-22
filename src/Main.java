@@ -88,8 +88,7 @@ public class Main {
             summDeposit += summDeposit * percentage1/100;
             monthStart = monthStart + 1;
             if (monthStart % 6 == 0)
-                System.out.println("Месяц " + monthStart +
-                        " , сумма накоплений равна " + summDeposit + " рублей");
+                System.out.println("Месяц " + monthStart + " , сумма накоплений равна " + summDeposit + " рублей");
         }
         System.out.println("Задача 7");
         int firstFriday = 3;
