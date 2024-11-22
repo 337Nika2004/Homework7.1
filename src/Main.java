@@ -101,7 +101,7 @@ public class Main {
         int currentYear1 = 2024;
         int start = currentYear1 - 200;
         int end = currentYear1 + 100;
-        for (int year = startSeeing; year < end; year+= period) {
+        for (int year = startSeeing; year  < end; year+= period) {
             if (year > start) {
                 System.out.println(year);
             }
